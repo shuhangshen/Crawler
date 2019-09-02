@@ -1,0 +1,17 @@
+#上传
+cd 要上传的目录
+git init
+git add .  #所有文件
+git commit -m "注释"
+git remote add origin https://github.com/shuhangshen/shuhangshen.git
+git pull --rebase origin master
+git push -u origin master
+
+#删除文件
+git rm -r --cached a/2.txt #删除a目录下的2.txt
+git commit -m "注释" #commit
+git push origin
+
+
+
+
