@@ -1,0 +1,137 @@
+2019-09-03 10:38:52 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: Guokr)
+2019-09-03 10:38:52 [scrapy.utils.log] INFO: Versions: lxml 4.2.4.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.0, w3lib 1.19.0, Twisted 17.1.0, Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:54:40) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.1.0h  27 Mar 2018), cryptography 2.3, Platform Windows-7-6.1.7601-SP1
+2019-09-03 10:38:52 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'Guokr', 'COOKIES_ENABLED': False, 'DOWNLOAD_DELAY': 3, 'LOG_FILE': 'guokr.log', 'NEWSPIDER_MODULE': 'Guokr.spiders', 'SPIDER_MODULES': ['Guokr.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36'}
+2019-09-03 10:38:52 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-09-03 10:38:52 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-09-03 10:38:52 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-09-03 10:38:52 [scrapy.middleware] INFO: Enabled item pipelines:
+['Guokr.pipelines.GuokrPipeline']
+2019-09-03 10:38:52 [scrapy.core.engine] INFO: Spider opened
+2019-09-03 10:38:52 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-09-03 10:38:52 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2019-09-03 10:38:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.guokr.com/apis/minisite/article.json?retrieve_type=by_wx&channel_key=predator&offset=10&limit=10> (referer: None)
+2019-09-03 10:38:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.guokr.com/apis/minisite/article.json?retrieve_type=by_wx&channel_key=predator&offset=20&limit=10> (referer: None)
+2019-09-03 10:38:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://guokr.com/article/454533/> (referer: https://www.guokr.com/apis/minisite/article.json?retrieve_type=by_wx&channel_key=predator&offset=10&limit=10)
+2019-09-03 10:38:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://guokr.com/article/454533/>
+{'content': ['去年上架就断货的酥山凉店冰淇淋，今年又是一上架就卖断货，所长得不停补库存才行。毕竟比去年更好吃了，而且热量更低了，吃过的都说好，等着所长的新活动。吃货的小姐姐更是吃的香，也只有神仙冰淇淋才能让神仙小姐姐这么开心了吧。抹茶味连续两年都备受好评，冰淇淋口感绵密，抹茶味清香淡雅，还有海苔味儿加成，承载了所长一夏天的记忆。除了宇治抹茶之外，今年还新研发了芝士控们一定不能错过的意大利海盐芝士。是那种吃一口，一秒感受地中海的凉风拂面的畅爽和欧洲纯正的浓郁芝士的冰淇淋。精选全球优质食材，不打入空气8杯80g低糖好吃的冰淇淋只需￥138！意大利海盐芝士和宇治抹茶all '
+             'in！别怪所长没提醒你！会员还有9折优惠！新会员更有￥30优惠券！天猫店也有上架！复制淘口令直接购买【】天猫店暂时没开通会员卡优惠，会员优惠仅在有赞店举行，但天猫店也有其他很棒的活动，有空来逛逛哟~01\xa0'
+             '纯天然优质食材\xa0/ 打倒一切香精色素恶势力 '
+             '/好吃的冰淇淋，一定会选用最合适的食材和用量，突出食材本真的味道，还要层次丰富且均衡的口感。而不是简单粗暴地使用香精色素营造出一副好吃的假象，内里只有浓浓的香精味和空洞的空气口感。所长亲自示范什么叫好吃的冰淇淋：这款意大利海盐芝士精选英格兰海盐，少量海盐即可衬托出糖的甜味。再加入新西兰的牛奶和意大利的奶油奶酪，减少了糖的用量，还让整个芝士冰淇淋味道更饱满丰富，入口即是让人甜蜜的芝士味。另一款抹茶冰淇淋则精选最高等级宇治抹茶的拥有者之一北川半兵卫商店所产的祝の白，入口抹茶淡雅的香气，中段的香气有着抹茶特有的一丝丝海苔的香气，区别于国产抹茶，宇治抹茶一般不会有很强烈的苦涩感，整体香气淡雅。02\xa0'
+             '空气感少，细腻柔滑\xa0/ 再也不用担心冰淇淋化了成奶沫 '
+             '/冰淇淋从制作方法上来讲分为软质冰淇淋和硬质冰淇淋。软质冰淇淋会在产品里充入空气，以提升体积和更绵软的口感。但是打了空气的冰淇淋就像咖啡上的泡沫，入口就消散了，口感单薄，化了之后还会变成粘稠的有泡沫感的浓浆，失去了灵魂。而硬质冰淇淋则是利用扎实原料的味觉冲击以及对温度的控制达到丝滑的口感。一般情况下，奶底冰淇淋的最佳食用温度在-14℃左右，这个温度状态下的冰淇淋会呈现一种维持固体形状的柔软状态。硬质冰淇淋在冰箱-18℃的环境下，会冻得像石头一样，但只要放在室温稍微回温一下，每一口就都是细腻柔滑的。就算吃得慢融化了也会像奶昔一样，口感依然细腻。酥山柔滑细腻的冰淇淋在入口的一瞬间就能让人心都跟着化了，配合得刚刚好的香气带来满满的惊喜和震撼，感觉自己变回了第一次偷吃糖果的小孩，连盒子上残留的冰淇淋都舍不得浪费，要仔细地舔干净才心满意足。03\xa0'
+             '热量减半，风味不减\xa0/ 冰淇淋爱好者和热量恐慌人群的福音 '
+             '/不想错过美味，又要和肥肉作斗争，对于每个靓仔都是极大的挑战。最近在减肥的所长更是一把鼻涕一把泪地控诉所里消瘦的小姐姐肆无忌惮啃冰，直到所长遇上酥山冰淇淋。为了做出热量不高的冰淇淋，酥山做过很多尝试，试过各种脂肪替代物，减少糖量等等方法。但大部分方法都会牺牲冰淇淋的风味，直到他们在低热量和美味之间找到了一个合适的点，既保留了合适的风味，也降低了热量。温馨提示由于冰品的产品特殊性，除产品质量问题外，不接受拒签或退换货。如有破损、融化问题，请即时联系客服处理赔付，超过30分钟将视为个人储存问题，不予赔付请务必当面确认包裹完好再签收，首次派送不成功、非收件人亲自签收、联系方式无效等情况不予赔付。所以工作日不方便当面签收的，请在下单时备注周末签收签收后请及时放入冰箱冷冻（-18℃）从冰箱取出后回温几分钟，味道更佳新加入的会员需要先进入店铺，在个人主页界面找到你的会员卡，激活后，结算时就能使用会员券了。8杯80g低糖好吃的冰淇淋只需￥138！意大利海盐芝士和宇治抹茶all '
+             'in！别怪所长没提醒你！会员还有9折优惠！新会员更有￥30优惠券！天猫店也有上架！复制淘口令直接购买【】天猫店暂时没开通会员卡优惠，会员优惠仅在有赞店举行，但天猫店也有其他很棒的活动，有空来逛逛哟~快戳这里抢购！'],
+ 'field': '吃货研究所',
+ 'fields': '吃货研究所',
+ 'title': '心疼！夏天都快过去了，你还没吃到这款卖断货的神仙冰淇淋',
+ 'url': 'https://guokr.com/article/454533/'}
+2019-09-03 10:39:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.guokr.com/apis/minisite/article.json?retrieve_type=by_wx&channel_key=predator&offset=30&limit=10> (referer: None)
+2019-09-03 10:39:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://guokr.com/article/454341/> (referer: https://www.guokr.com/apis/minisite/article.json?retrieve_type=by_wx&channel_key=predator&offset=20&limit=10)
+2019-09-03 10:39:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://guokr.com/article/454341/>
+{'content': ['老话说“臭屁不响，响屁不臭”，其实屁臭不臭和声音大小没特别大的关系，反而和你吃了什么、排放量有点关系┓(\xa0´∀`\xa0'
+             ')┏当食物中蛋白质含量较高时，屁中的硫化物含量增加，就会比较臭。很多人还有吃了大豆容易放屁的经历，这是因为大豆里富含大豆多糖，这种物质被肠道里以大肠杆菌为代表的微生物分解，产生大量的甲烷气体，直观表现就是屁多，可能也会放出几个巨响的屁。\xa0'
+             '你 可 能 错 过 的\xa0这几个国家竟然是为了这盘豆泥“打架”！| 每天一个冷知识论种草带货能力，他称第二，没人敢称第一 | '
+             '每天一个冷知识赏什么枫叶啊！吃它！| 每天一个冷知识转发这盆迷迭香，收获一个男朋友 | '
+             '每天一个冷知识欢迎保存图片并转发到朋友圈带你的小伙伴一起涨姿势今天的你有比昨天更博学一点吗？请点下“在看”↘让我知道'],
+ 'field': '吃货研究所',
+ 'fields': '吃货研究所',
+ 'title': '臭屁不响，响屁不臭，是真的吗？',
+ 'url': 'https://guokr.com/article/454341/'}
+2019-09-03 10:39:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.guokr.com/apis/minisite/article.json?retrieve_type=by_wx&channel_key=predator&offset=40&limit=10> (referer: None)
+2019-09-03 10:39:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://guokr.com/article/454340/> (referer: https://www.guokr.com/apis/minisite/article.json?retrieve_type=by_wx&channel_key=predator&offset=20&limit=10)
+2019-09-03 10:39:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://guokr.com/article/454340/>
+{'content': ['鸡蛋之于我，是每天都不能缺的，绵密软糯的蛋黄配弹力十足的蛋白，怎么吃都觉得幸福。其中白水煮蛋最得我心，冷水入锅，水没过鸡蛋两三厘米，盖上锅盖，开大火把水烧开后关火，保持8-10分钟，捞出过凉水，再在桌上轻压滚动，从大头处开始剥，就能得到一颗吹弹可破的鸡蛋。咬一口就能看到黄糯诱人的里子，撒一点盐或者胡椒粉和香菇酱，一口塞进嘴里，比吃肉还要满足。椒盐煮鸡蛋 '
+             '| '
+             '图虫创意但嗜蛋如命的我，也不会止步于蒸煮蛋。上周末就在家煮了十个茶叶蛋，本来是给这一周屯的，结果男票一天就偷吃了四个，害得我周二就没得蛋吃。下茶汤煮之前，要先煮熟鸡蛋过冷水敲出网纹哦 '
+             '| 拍摄\xa0'
+             '猪庙饼这周决定再做几种蛋，并不为了给下周屯，因为也屯不住，单纯就想研究很多种鸡蛋的做法，每周做来改善伙食。01\xa0'
+             '小巧别致煎蛋\xa0/\xa0你试过一颗鸡蛋煎出来五六七八块煎蛋吗\xa0'
+             '/煎鸡蛋应该是煮鸡蛋蒸鸡蛋以外最日常的做法了，一整颗蛋打进油锅，呲溜一下就能得到一面焦黄，一面软糯的煎蛋。单吃、配培根面包、自制三明治，怎样都行。培根煎鸡蛋 '
+             '|\xa0'
+             '图虫创意本来这样就够了，但是猎奇本命的我，又发现了一种让一颗蛋变五六七八颗，味道还不逊色的方法。原材料：鸡蛋一枚，热水一碗，小刀一把，锅子一只，食用油步骤：Step1 '
+             '生鸡蛋横放进冷冻室一天Step2 从冰箱取出冰冻生鸡蛋，丢进热水里升温Step3\xa0'
+             '小心翼翼剥开鸡蛋壳，切成等宽的几等份Step4 入油锅煎至周边焦黄就可以起锅摆盘，想吃再熟一点的，翻面煎也是可以的02\xa0'
+             '培根流心蛋饭团\xa0/\xa0爆浆蛋黄、糯米和培根\xa0'
+             '/乘在碗里的米饭是勾不起我多少食欲的，但是一团包了鸡蛋的糯米却可以让我放下对碳水的偏见，大口大口吃掉，尤其是卷了培根炸过的饭团。一口咬下去培根的焦酥混合着糯米的清香，随即而来的就是爆浆的蛋黄，不经意间还能尝出点甜味来。这样的培根流心蛋饭团一定要学会做啊。培根流心蛋卷\xa0'
+             '|\xa0Youtube原材料：鸡蛋2-3枚，面粉适量，糯米适量，比糯米少一点的大米，培根，砂糖步骤：Step1\xa0'
+             '糯米大米冷水浸泡过夜，置入电饭煲煮熟Step2 煮熟的糯米饭盛出平铺在保鲜膜上Step3\xa0'
+             '鸡蛋白水煮熟，剥开后扔进面粉里滚一圈，放到糯米饭里Step4 '
+             '像捏包子一样捏起包了糯米饭和鸡蛋的保鲜膜，揉成球去掉保鲜膜Step5 用培根五花大绑糯米团，入油锅煎炸，记得适量加糖Step6 '
+             '大概炸三分钟，四面金黄就可以出锅吃啦03\xa0不用擀面的西红柿鸡蛋面\xa0/\xa0才不是你想的那么普通\xa0'
+             '/你以为这是一锅普通的番茄汤煮泡面？那你就错啦！这一根根金黄劲道像芝士一样的面，是不折不扣的鸡蛋面。鸡蛋原液和面粉，不用擀面不用切面，就能得到好吃的鸡蛋面。真·番茄鸡蛋面 '
+             '| YouTube原材料：鸡蛋3枚，打蛋器一只，面粉适量，裱花袋一只，煮好的番茄汤（或随便你喜欢的什么汤）步骤：Step1 '
+             '鸡蛋配面粉打成均匀的糊状Step2 小心翼翼地装进裱花袋Step3 煮一锅你爱吃的汤Step4\xa0'
+             '用裱花袋挤出一根又一根鸡蛋面入锅Step5 煮熟就可以吃啦04\xa0微波炉烤瓶盖蛋\xa0/\xa0这样做我能吃一盒鸡蛋\xa0'
+             '/只要有微波炉或者烤箱，一些很简单的调料和步骤就能协助鸡蛋发挥本色，成为一顿美味里的点睛之笔。碟子吃完最好也是不用洗的，那就用瓶盖吧。瓶盖、鸡蛋和微波炉，一顿早餐就做好了。瓶盖蛋 '
+             '| YouTube原材料：鸡蛋若干，大瓶盖若干，烤箱一只或者可以高温使用的微波炉，芝麻，椒盐等，食用油步骤：Step1\xa0'
+             '在大瓶盖上均匀刷上一层油Step2\xa0打入一颗鸡蛋，并重复1、2步数次Step3\xa0'
+             '给各个瓶盖蛋撒上芝麻椒盐等自己喜欢的调料Step4 放进烤箱或者微波炉，温度调到200摄氏度，叮5分钟即可05\xa0'
+             '简易煎蛋卷\xa0/\xa0这法子最难的一步竟然是黄清分离\xa0'
+             '/鸡蛋衍生品里我最爱的就是蛋卷，泡菜蛋卷也好，裹了各种各样配料的蛋卷也好，我喜欢丝滑又焦的口感。以往做煎蛋卷都得放面粉，这次想尝试纯鸡蛋的鸡蛋卷。葱花火腿鸡蛋卷 '
+             '| 豆果厨友舞之灵原材料：鸡蛋若干，蛋清分离器一只，平底锅一只，食用油步骤：Step1\xa0蛋清分离，并分别打匀Step2 '
+             '热的平底锅刷油，倒入打匀的蛋黄并摊成饼状Step3\xa0煎至上面一层凝固，代表背面刚刚好焦黄，卷起来一半Step4 '
+             '给锅里倒入匀称的蛋清，变白后卷起，重复2-3次，直至蛋清用完Step5\xa0'
+             '均匀切开一大块蛋卷看这焦黄白嫩的蛋卷，我一口就能吃一个。胃总是比口腔反应快，口水还未流，胃就已经开始咕噜噜转，说要赶紧去做、去吃各种鸡蛋了呢。文中 '
+             'GIF 截取自 YouTube 博主 \xa05-minute Crafts 2019 的《18 CRAZY AND '
+             'DELICIOUS EGG HACKS》。.大脑：我会了手：好巧，我也会了本文来自果壳未经授权，禁止转载欢迎转发到朋友圈\xa0'
+             '一 次 性 吃 够 鸡 蛋 吧\xa0\xa0'
+             '海里竟然长出了葡萄？能吃吗？好吃吗？怎么吃？什么榴莲盒子能两小时爆卖5000+盒？好评还能让人对榴莲黑转粉？连吃10碗臊子面是种什么体验？减肥的你别进来，真的会把持不住！\xa0'
+             '关 注 所 长\xa0\xa0不 再 错 过 好 文 章\xa0看完还不点个收藏或在看↘！'],
+ 'field': '吃货研究所',
+ 'fields': '吃货研究所',
+ 'title': '这样做鸡蛋，一周都不带重的，我一次能吃一盒！',
+ 'url': 'https://guokr.com/article/454340/'}
+2019-09-03 10:39:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.guokr.com/apis/minisite/article.json?retrieve_type=by_wx&channel_key=predator&offset=50&limit=10> (referer: None)
+2019-09-03 10:39:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://guokr.com/article/449961/> (referer: https://www.guokr.com/apis/minisite/article.json?retrieve_type=by_wx&channel_key=predator&offset=30&limit=10)
+2019-09-03 10:39:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://guokr.com/article/449961/>
+{'content': ['\xa0'
+             '冰箱是家家户户都有的电器，很多人都希望有一个大冰箱，囤满食物给人以一种安全感。不过，很多人家里的冰箱可能都用错了。梦想中的双开门大冰箱，打开都是饮料|\xa0'
+             'giphy.com.1、冰箱冷藏室的温度通常在0℃~4℃，不能解决霉菌繁殖的问题，很多食物放久了会霉烂。3、蔬菜、酸奶、鲜奶、生鱼生肉、剩菜等最好放冰箱。2、冷藏的鱼、肉类可以存放2-3天；蛋类可以放1-2个月；绿叶蔬菜一般能保存3天左右。冷冻食品最好能在两个月之内吃完。3、香蕉、蜂蜜、巧克力、干制品和罐头等不用放冰箱。01\xa0'
+             '食物是不是放进冰箱就安全了？很多人喜欢一股脑把买来的果蔬、食材放在冰箱冷藏室，以为这样就可以高枕无忧了。其实你大错特错，冰箱并非保险箱。不然夏天宠物没地方消暑（误）|\xa0'
+             'giphy.com冰箱冷藏室的温度通常在0℃~4℃，它的局限性在于不能解决霉菌繁殖的问题，很多食物放久了会霉烂，而且冷藏室内并不是真空环境，一些可能导致食物腐败的氧化反应还是可以发生，植物的呼吸作用也在继续。因此，绿叶蔬菜放在冷藏室里只能保存3天左右，其他蔬菜最好一周内吃完，避免营养价值下降。美国疾病预防控制中心（CDC）网站冷藏室也不能杀死很多耐冷的致病菌，比如李斯特菌（Listeria '
+             'monocytogenes）。李斯特菌是一种致病细菌，不怕冷，在低至零度的冷藏温度下仍可缓慢生长。所以，放在冰箱里的剩饭剩菜、开封的牛奶、罐头等，如果密封不严，也可能被微生物污染，要么尽快吃完，要么尽量密封保存。\xa0'
+             '02\xa0'
+             '冰箱里的食物能放多久？冷藏室冷藏室内细菌是可以生长繁殖的，所以食物一般并不能放很久。比如鱼、肉类的存放时间也不宜太久，通常在2-3天；蛋类放冰箱冷藏的一般可以放1-2个月；绿叶蔬菜一般只能保存3天左右，其他蔬菜最好一周内吃完，避免营养价值下降。需要特别提醒，一定要定期清洁消毒冷藏室。绿叶蔬菜应放入冷藏室 '
+             '|\xa0'
+             '正版素材来源：图虫创意冷冻室很多人觉得食物可以在冷冻室里放到天荒地老——的确，冷冻食品可以放很久，一般放个一年半载都是没有问题。不过，在冷冻室里虽然食物不会腐败，但长了也会造成品质下降，特别是脂肪氧化，蛋白质质地变差，维生素含量降低。所以，最好还是能在两个月之内吃完。冰箱冷冻室|\xa0'
+             '正版素材来源：图虫创意03\xa0这些食品不用放冰箱\xa0'
+             '香蕉香蕉对低温很敏感，在11℃~13℃以下就会发生冷害，使得果实不能正常后熟，果皮变为黑灰色，食用价值变差。而且香蕉特别娇气，温度高了也不行。当温度超过35℃时，会引起香蕉高温损伤，使果皮变黑，果肉糖化，商品价值和食用价值也会降低。“芭扎黑”|\xa0'
+             '果壳香蕉保存的适宜温度是11℃~13℃。常温下放一段时间也问题不大。因此，消费者平时买香蕉不要一次性买太多，买回家放室外保存就可以，但最好尽快吃完。蜂蜜蜂蜜中都是糖，渗透压很高，微生物几乎无法生存，放在室温环境中也可以保存很久。如果把蜂蜜放到冰箱里，反而可能因受潮促使它结晶析出葡萄糖。这个变化并不影响蜂蜜的安全性，也不影响它的营养价值，只是会影响到口感。is925.com干制食品茶叶、奶粉、咖啡之类的干制品几乎没有水分，细菌也无法生存，不用放冰箱就可以保存很久。如果放入冰箱密封不严，反而会使冰箱中的味道和潮气进入食品当中，既影响风味，又容易生霉，干制品储存时放在通风干燥的地方就可以。茶叶等干制品 '
+             '|\xa0'
+             'pixabay.com巧克力巧克力在冰箱里放太久容易发生脂肪结晶的晶型变化，虽然不会变质，但口感会逐渐变得粗糙，表面长白霜，不再细腻均匀。实际上，巧克力适合放在20℃左右的室温下。巧克力上的白霜\xa0'
+             '| '
+             '“EurekAlert_中文版”微博罐头等密封消毒产品罐头、常温奶等，都是经过高温灭菌的产品，本身没有细菌，室温下也可以放很久，只要没有拆封，就不需要放入冰箱。罐头\xa0 '
+             '|\xa0正版素材来源：图虫创意04\xa0哪些食品最好放冰箱\xa0'
+             '蔬菜蔬菜，特别是绿叶蔬菜在室温下存放时，会继续进行呼吸作用，导致营养成分逐渐损失，亚硝酸盐也会快速增加。买回家后，最好用食品级保鲜膜或塑料袋包好，分包放在冷藏室内。食物再多也要分包放入冰箱\xa0'
+             '|\xa0'
+             'pixabay.com酸奶及鲜奶酸奶在室温下存放时，其中的乳酸菌会继续发酵，会产生过多的酸，一方面口感会变差，另一方面酸度过高也会杀死其中的乳酸菌活菌，冷藏保存能够延缓乳酸菌的发酵。鲜奶（巴氏奶）在室温下存放，细菌会迅速生长，很容易超标甚至腐败。将酸奶直接放入冷冻室可以获得直接冻酸奶生鱼生肉生鱼生肉容易滋生细菌，买回家后最好放入冰箱冷藏，如果当天吃不完，应该冷冻保存。剩饭剩菜及肉制品有的家庭冰箱里放得最多的就是各种剩饭剩菜。吃不完的剩饭剩菜最好用保鲜袋、保鲜盒分装密封放入冰箱冷藏，因为剩的蔬菜中容易产生亚硝酸盐。而剩的熟肉制品当中可能滋生细菌，甚至是多种危险的致病菌。吃不完的熟食也要放入冰箱中｜123rf.com.cn正版图片库\xa0'
+             '食物使用指南如何合理使用冰箱呢？主要注意几点：1.用好保鲜盒、保鲜袋，提前将食物分装好再储存，这样既省空间，还能防止串味、防止交叉污染，要吃的时候拿出来也方便。2.生熟分开。生的食物和生的食物放一起，熟食跟熟食放一起，防止交叉污染。一般来说，所有的生食物最好用独立的包装分开放，比如，每一种蔬菜套一个塑料袋。而熟食物和直接入口的食物要放在上面两层，比如剩饭菜、酸奶、牛奶、熟食等；生食物要放在下面两层，比如生蔬菜、生豆腐等。剩饭菜最好都加上保鲜膜，或者放在有盖的保鲜盒里。3.不论是冷冻室还是冷藏室都要定期清洁、消毒，定期除霜。最后提醒大家，冰箱能方便大家的生活，也能给我们的饮食增加安全保障、避免浪费，不过还是不要太迷信它，更不要总是一次性买很多食物放冰箱囤着。如果可以，还是要多吃新鲜的食物，毕竟新鲜食物的口感和食用乐趣也都是非常棒的享受，这不正是人们对美食的追求吗？\xa0'
+             '.今明两天10:00-17:30，北京天桥艺术中心二楼，所长和小姐姐们带了一堆好吃的在这里摆市集，快来撩！扫描下方二维码并回复“有意思”，免费获得门票！本文来自果壳网严禁二次转载欢迎转发到朋友圈\xa0'
+             '你 可 能 还 会 喜 欢\xa0'
+             '空腹能否吃柿子？柿子螃蟹能否同食？柿饼白霜多才好？柿子涩口怎办？不能用刀叉吃炸鸡？不能咬别人的汉堡？这些奇葩法律是真实存在的吗？老北京竟然在 '
+             '70年前就有涮肉“外卖”了！官宣：枣和猕猴桃也结婚了！\xa0所 长 推 荐\xa0\xa0关 注 所 长\xa0\xa0不 再 '
+             '错 过 好 文 章\xa0/ 苹果用户如何不再错过所长\xa0//\xa0安卓用户如何不再错过所长\xa0'
+             '/加了星标/置顶了“吃货研究所”，再也不怕错过所长的推送啦！看完点个赞再走吧！'],
+ 'field': '吃货研究所',
+ 'fields': '吃货研究所',
+ 'title': '放冰箱里的食物是不是就安全了？到底如何正确使用冰箱？',
+ 'url': 'https://guokr.com/article/449961/'}
