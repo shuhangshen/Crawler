@@ -1,0 +1,89 @@
+爬虫1： 大公网   http://www.takungpao.com/
+工程路径：虚拟机111 C:\Users\YJY\Desktop\workspace\dagongw
+数据存储路径：z:\data\dagongw
+策略：
+爬虫脚本：
+    运行run.bat  
+          基于Crawspider,通过linkExtractor爬取全网链接，然后解析文字
+
+爬虫2： 学科网   http://yw.zxxk.com/articlelist
+工程路径：虚拟机111 C:\Users\YJY\Desktop\workspace\XueKeW
+数据存储路径：z:\data\xuekew
+策略：
+爬虫脚本：
+    运行run.bat:  
+          分版块爬取学科网文字部分（field:语文、数学、英语、物理、化学、生物、政治、历史、地理、科学）
+          1、首先按field 遍历每个版块,
+          2、在对应版块中匹配文章链接，
+          3、爬取链接中的文字
+
+爬虫3： idata(cnki)   https://www.cn-ki.net/
+工程路径：虚拟机111 C:\Users\YJY\Desktop\workspace\cnki
+数据存储路径：z:\data\cnki
+策略：
+爬虫脚本：
+    运行run.bat:  
+          1、由于网站未登录每次只能搜索3个关键词，利用selenium进行自动化登陆
+          2、按照给定关键字列表（keywords.txt),提取列表中的关键字，
+          3、使用selenium自动在idata(www.cnki.cn)中填入关键字进行搜索
+          4、注意点：该网站起始搜索页面与进入搜索页面后，selenium点击状态的代码不同，所以需要分别写两种情况的点击状态代码
+          5、按总的搜索到的文章数，除以每页文章链接数，得到总的页码，循环翻页
+ 
+          
+爬虫4： 汽车之家、新浪汽车、腾讯汽车内饰图片爬取   https://www.cn-ki.net/
+工程路径：虚拟机111 C:\Users\YJY\Desktop\workspace\carpicture
+数据存储路径：z:\data\carpicture
+策略：
+爬虫脚本：
+    运行.bat: 
+          三个网站爬取方式类似，在同一个爬虫项目中创建： 
+          1、首先提取网站上方的所有热门车型链接，
+          2、进入具体汽车类型后提取汽车内饰部分图片，
+          3、通过selenium自动点击“下一张”图片，实现图片链接的爬取。
+          4、爬取的链接使用scray内置的Imagepipelines,下载图片。
+
+爬虫5： 百度图片(汽车内饰和黑人图片爬取)   https://image.baidu.com/
+工程路径：虚拟机111 虚拟机https://10.3.64.18  C:\Users\YJY\Desktop\workspace\carpicture\baiduimage
+数据存储路径：z:\data\carpicture\baiduimage
+策略：
+爬虫脚本：
+    运行.bat: 
+          利用提供的关键字列表（keywords.txt),实现图片爬取
+          1、提取列表中的关键字，
+          2、使用selenium自动在百度图片（image.baidu.com)上搜索图片，
+          3、使用Imagepipelines下载： 
+         
+爬虫6： 果壳网   https://www.guokr.com/
+工程路径：虚拟机111 C:\Users\YJY\Desktop\workspace\Guokr
+数据存储路径：z:\data\guokr
+策略：
+爬虫脚本：
+    运行run.bat: 
+          1、分版块爬取（field：science(科学人)、calendar(物种日历)、beauty(美丽也是种技术或），institute(吃货研究所）），
+          2、由于每个版块页面源码是json格式，可以通过json提取出每个版块的总页数。
+          3、然后进入每一个版块页面后，通过json格式解析页面中文章的id，
+          4、按照id构造文章链接，然后提取文字。
+
+爬虫7： 简书   https://www.jianshu.com/
+工程路径：虚拟机111 C:\Users\YJY\Desktop\workspace\jianshu\jianshu\spiders\jianshu1
+数据存储路径：z:\data\jianshu
+策略：
+爬虫脚本：
+    运行run.bat: 
+          1、按照首页推荐作者，解析总的推荐作者页数。
+          2、对每一页发起请求后，提取每个作者id,
+          3、按照id构造作者主页链接，爬取里面的文章。
+         
+爬虫7： 虎扑   https://www.hupu.com/
+工程路径：虚拟机111 C:\Users\YJY\Desktop\workspace\Hupu
+数据存储路径：z:\data\虎扑
+策略：
+爬虫脚本：
+    运行run.bat: 
+          主要爬取社区论坛部分：
+          1、根据论坛页面（https://bbs.hupu.com/board.php），提取每一个专区的链接；
+          2、在每一个专区中，解析每一个主题；
+          3、在每一个主题中提取楼主的发言：文字和图片，并提取所有其他楼层的文字评论。
+          
+ 
+
